@@ -36,17 +36,26 @@
 
 ## 🚀 How to Use This Tool
 
-**Option A: Run from Source Code**
+**Option A: For Standard Users (No Setup Required)**
+If you have been given the standalone `.exe` file:
+1. Simply double-click the executable file to launch the application. You do not need to install Python.
+2. Select your folder, configure your sets when prompted, and the tool will compile a `Master_Ready_To_Print.pdf`. 
+3. Open the final PDF, ensure your physical printer is set to **Double-Sided (Duplex)**, and hit print!
+*(Note: If Windows Defender shows a blue warning screen on the first launch, click **More info** and then **Run anyway**).*
+
+**Option B: For Developers (Run from Source)**
+If you want to run or edit the raw Python code:
 1. Install the required dependency via your terminal: `pip install pypdf`
 2. Run the script: `python pdf_batch_printer.py`
-3. Paste your target folder path when prompted. The tool will compile a `Master_Ready_To_Print.pdf`. Open it, ensure your physical printer is set to **Double-Sided (Duplex)**, and hit print!
 
-**Option B: Build a Standalone Executable (.exe)**
-*(For users without Python installed)*
+---
+
+## 📦 How to Build the Executable
+*(For developers wanting to package their own updated `.exe` versions)*
 1. Install the compiler tool: `pip install auto-py-to-exe`
 2. Launch the visual interface: `python -m auto_py_to_exe`
-3. Select your `pdf_batch_printer.py` file, choose **One File**, and select **Window Based (hide the console)**.
-4. Click convert! You can now share the resulting `.exe` file with anyone. *(Note: Executables built with modern Python are designed for Windows 10/11 and are not officially supported on older systems like Windows 7/8).*
+3. Select the `pdf_batch_printer.py` file, choose **One File**, and select **Window Based (hide the console)**.
+4. Click convert to generate the distributable `.exe` file. 
 
 ---
 
