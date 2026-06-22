@@ -36,17 +36,14 @@
 
 ## 🚀 How to Use This Tool
 
-**Option A: For Standard Users (No Setup Required)**
-If you have been given the standalone `.exe` file:
-1. Simply double-click the executable file to launch the application. You do not need to install Python.
-2. Select your folder, configure your sets when prompted, and the tool will compile a `Master_Ready_To_Print.pdf`. 
-3. Open the final PDF, ensure your physical printer is set to **Double-Sided (Duplex)**, and hit print!
-*(Note: If Windows Defender shows a blue warning screen on the first launch, click **More info** and then **Run anyway**).*
+There is no installation or setup required. 
 
-**Option B: For Developers (Run from Source)**
-If you want to run or edit the raw Python code:
-1. Install the required dependency via your terminal: `pip install pypdf`
-2. Run the script: `python pdf_batch_printer.py`
+1. **Download the tool:** Download the `pdf_automator.exe` file from this repository.
+2. **Run it:** Double-click the file to launch the application. *(Note: If Windows Defender shows a blue warning screen on the first launch, click **More info** and then **Run anyway**).*
+3. **Print:** Select your folder, configure your sets when prompted, and the tool will compile a `Master_Ready_To_Print.pdf`. Open it, ensure your physical printer is set to **Double-Sided (Duplex)**, and hit print!
+
+---
+*(Note for Developers: If you wish to run this tool from the source code or compile your own version, please see the `Developer_Instructions.md` file).*
 
 ---
 
