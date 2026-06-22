@@ -45,4 +45,10 @@ There is no installation or setup required.
 ---
 
 ## 🤝 Feedback & Contribution
-This tool
+This tool was engineered to dynamically handle almost any batch printing requirement without needing to touch the code. However, if you encounter a bug, or if you are a developer with an idea for a new feature, feel free to open an **Issue** or submit a **Pull Request**!
+
+<br>
+
+<div align="center">
+  <i>Developed by Harsh Kamalakar</i>
+</div>
