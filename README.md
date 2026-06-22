@@ -38,17 +38,11 @@
 
 There is no installation or setup required. 
 
-1. **Download the tool:** Download the `pdf_batch_printer_harsh.py.exe` file from this repository.
+1. **Download the tool:** Go to the **Releases** section on the right side of this GitHub page and download the `pdf_batch_printer_harsh.py.exe` file.
 2. **Run it:** Double-click the file to launch the application. *(Note: If Windows Defender shows a blue warning screen on the first launch, click **More info** and then **Run anyway**).*
 3. **Print:** Select your folder, configure your sets when prompted, and the tool will compile a `Master_Ready_To_Print.pdf`. Open it, ensure your physical printer is set to **Double-Sided (Duplex)**, and hit print!
 
 ---
 
 ## 🤝 Feedback & Contribution
-This tool was engineered to dynamically handle almost any batch printing requirement without needing to touch the code. However, if you encounter a bug, or if you are a developer with an idea for a new feature, feel free to open an **Issue** or submit a **Pull Request**!
-
-<br>
-
-<div align="center">
-  <i>Developed by Harsh Kamalakar</i>
-</div>
+This tool
