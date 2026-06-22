@@ -59,8 +59,8 @@ If you want to run or edit the raw Python code:
 
 ---
 
-## 🤝 Customization & Contribution
-This automation logic is highly adaptable. If your workflow requires a different number of sets, alternate page ranges, or unique padding rules, the code can be easily modified to fit your exact requirements. Feel free to open an Issue or submit a Pull Request!
+## 🤝 Feedback & Contribution
+This tool was engineered to dynamically handle almost any batch printing requirement without needing to touch the code. However, if you encounter a bug, or if you are a developer with an idea for a new feature (such as a loading bar or additional file formats), feel free to open an **Issue** or submit a **Pull Request**!
 
 <br>
 
