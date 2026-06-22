@@ -3,6 +3,7 @@
 <div align="center">
   <img src="https://img.shields.io/badge/python-v3.8+-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/pypdf-enabled-brightgreen" alt="PyPDF">
+  <img src="https://img.shields.io/badge/tkinter-native-lightgrey" alt="Tkinter">
   <img src="https://img.shields.io/badge/automation-100%25-orange" alt="Automation">
 </div>
 
@@ -32,25 +33,15 @@
 
 ## ✨ Core Features
 
-* **⚙️ Custom 3-Set Sequencing:** Automatically extracts and generates exactly three distinct sets per estimate: **two 4-page department copies** and **one full master copy**.
-* **🧠 Smart Duplex Padding:** Dynamically calculates page counts and inserts blank "padding" pages so every set is a multiple of 4. This guarantees a new estimate *always* starts on a fresh piece of paper when duplex printing.
+* **⚙️ Custom Batch Sequencing:** Automatically extracts and generates distinct sets per document based on your exact specifications.
+* **🧠 Smart Duplex Padding:** Dynamically calculates page counts and inserts blank "padding" pages. This guarantees a new estimate *always* starts on a fresh piece of paper when duplex printing.
+* **🖥️ Native Windows UI:** Lightweight, built-in graphical interface that requires no heavy external frameworks.
+* **⚡ Zero-Click Processing:** Scans target directories and processes all recognized `.pdf` files instantly.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Source Code)
 
 **1. Install Dependencies:**
 ```bash
 pip install pypdf
-```
-
-**2. Run the Automator:**
-```bash
-python pdf_batch_printer.py
-```
-*Paste your target folder path when prompted. The script will instantly compile a `Master_Ready_To_Print.pdf`. Open it, set your physical printer to **"Double-Sided (Duplex)"**, and hit print!*
-
----
-
-## 🤝 Customization
-This automation logic is highly adaptable. If your workflow requires a different number of sets, alternate page ranges, or unique padding rules, the code can be easily modified to fit your exact requirements. Feel free to open an Issue or pull request!
