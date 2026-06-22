@@ -38,26 +38,14 @@
 
 There is no installation or setup required. 
 
-1. **Download the tool:** Download the `pdf_automator.exe` file from this repository.
+1. **Download the tool:** Download the `pdf_batch_printer_harsh.py.exe` file from this repository.
 2. **Run it:** Double-click the file to launch the application. *(Note: If Windows Defender shows a blue warning screen on the first launch, click **More info** and then **Run anyway**).*
 3. **Print:** Select your folder, configure your sets when prompted, and the tool will compile a `Master_Ready_To_Print.pdf`. Open it, ensure your physical printer is set to **Double-Sided (Duplex)**, and hit print!
 
 ---
-*(Note for Developers: If you wish to run this tool from the source code or compile your own version, please see the `Developer_Instructions.md` file).*
-
----
-
-## 📦 How to Build the Executable
-*(For developers wanting to package their own updated `.exe` versions)*
-1. Install the compiler tool: `pip install auto-py-to-exe`
-2. Launch the visual interface: `python -m auto_py_to_exe`
-3. Select the `pdf_batch_printer.py` file, choose **One File**, and select **Window Based (hide the console)**.
-4. Click convert to generate the distributable `.exe` file. 
-
----
 
 ## 🤝 Feedback & Contribution
-This tool was engineered to dynamically handle almost any batch printing requirement without needing to touch the code. However, if you encounter a bug, or if you are a developer with an idea for a new feature (such as a loading bar or additional file formats), feel free to open an **Issue** or submit a **Pull Request**!
+This tool was engineered to dynamically handle almost any batch printing requirement without needing to touch the code. However, if you encounter a bug, or if you are a developer with an idea for a new feature, feel free to open an **Issue** or submit a **Pull Request**!
 
 <br>
 
